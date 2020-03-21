@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <header>
+        Cadaver Exquisito
+    </header>
+
+    <div class="container">
+        <div class="row">
+                <button class="btn btn-primary" id="btn-comenzar">Comenzar Juego</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div id="mensaje"></div>
+                <input id="box" type="text" required>
+                <button class="btn btn-warning" id="btn-siguiente">Siguiente</button>
+                <button class="btn btn-danger" id="btn-detener">Finalizar</button>
+            </div>
+
+            <div class="col-sm">
+                <div class="resultado hide" id="resultado">
+                    
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <footer class="fixed-bottom">
+        <p>Created By Sebastian Anea 2020</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

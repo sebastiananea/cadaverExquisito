@@ -1,0 +1,42 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+
+header{
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.btn{
+    margin: 20px;
+}
+
+.resultado{
+
+    margin: 10px;
+    min-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre;
+    text-transform: capitalize;
+    background-image: url("/paper_texture312.jpg");
+
+}
+
+.resultado p{
+    text-align: center;
+    margin: 10px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+footer{
+    background: #000;
+    color: #fff;
+}
